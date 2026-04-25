@@ -42,4 +42,3 @@ def calculator():
             print("Resultado:", resultado4)
     else:
         print("Operacion invalida")
-
