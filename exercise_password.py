@@ -26,9 +26,10 @@ def password():
     contrasena= input()
     length = len(contrasena) >= 8
     numero = False
+    
     for n in contrasena:
         if n in "0123456789":
-        numero = True
+            numero = True
     if length and numero:
         print("Contraseña valida")
     else:
